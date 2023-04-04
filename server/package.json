@@ -1,0 +1,28 @@
+{
+  "name": "chatApp_server",
+  "version": "1.0.0",
+  "description": "A modern and simple chat app design",
+   "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1",
+    "nodemon": "^2.0.15",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  },
+  "author": "Ajiroghene Sunday",
+  "license": "MIT",
+  "engines": {
+    "node": "14.x"
+  }
+}
